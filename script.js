@@ -14,8 +14,7 @@ var map = new mapboxgl.Map({
     bearing: -17.6
 });
 
-// The 'building' layer in the mapbox-streets vector source contains building-height
-// data from OpenStreetMap.
+// 'Building' layter with data on building-height from OpenStreetMap
 map.on('load', function() {
     // Inserts layer beneath any symbol layer.
     var layers = map.getStyle().layers;
